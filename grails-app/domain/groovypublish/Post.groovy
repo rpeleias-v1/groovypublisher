@@ -2,13 +2,17 @@ package groovypublish
 
 class Post {
 
-    
+    static hasMany = [comments:Comment]
+
 	String title;
 	String teaser;
 	String content
 	Date lastModified
-	Date published
-	
+	Boolean published = false
+	SortedSet comments
+		
     static constraints = {
     }
+
+    
 }

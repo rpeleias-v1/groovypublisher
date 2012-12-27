@@ -1,0 +1,17 @@
+Testsuite: groovypublish.PostTests
+Tests run: 1, Failures: 0, Errors: 1, Time elapsed: 0,13 sec
+------------- Standard Output ---------------
+--Output from testCrud--
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from testCrud--
+------------- ---------------- ---------------
+
+Testcase: testCrud took 0,088 sec
+	Caused an ERROR
+No signature of method: groovypublish.Post.save() is applicable for argument types: () values: []
+Possible solutions: wait(), any(), wait(long), use([Ljava.lang.Object;), isCase(java.lang.Object), any(groovy.lang.Closure)
+groovy.lang.MissingMethodException: No signature of method: groovypublish.Post.save() is applicable for argument types: () values: []
+Possible solutions: wait(), any(), wait(long), use([Ljava.lang.Object;), isCase(java.lang.Object), any(groovy.lang.Closure)
+	at groovypublish.PostTests.testCrud(PostTests.groovy:16)
+

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="rodrigo" name="groovypublish.CommentTests" tests="1" time="0.009" timestamp="2012-12-27T23:51:11">
+  <properties />
+  <testcase classname="groovypublish.CommentTests" name="testSomething" time="0.006" />
+  <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+  <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+</testsuite>
