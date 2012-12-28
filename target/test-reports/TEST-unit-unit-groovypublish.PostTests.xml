@@ -1,15 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="1" failures="0" hostname="rodrigo" name="groovypublish.PostTests" tests="1" time="0.13" timestamp="2012-12-27T23:51:11">
+<testsuite errors="2" failures="0" hostname="rodrigo" name="groovypublish.PostTests" tests="2" time="0.182" timestamp="2012-12-28T00:03:18">
   <properties />
-  <testcase classname="groovypublish.PostTests" name="testCrud" time="0.104">
+  <testcase classname="groovypublish.PostTests" name="testCrud" time="0.105">
     <error message="No signature of method: groovypublish.Post.save() is applicable for argument types: () values: []
 Possible solutions: wait(), any(), wait(long), use([Ljava.lang.Object;), isCase(java.lang.Object), any(groovy.lang.Closure)" type="groovy.lang.MissingMethodException">groovy.lang.MissingMethodException: No signature of method: groovypublish.Post.save() is applicable for argument types: () values: []
 Possible solutions: wait(), any(), wait(long), use([Ljava.lang.Object;), isCase(java.lang.Object), any(groovy.lang.Closure)
 	at groovypublish.PostTests.testCrud(PostTests.groovy:16)
 </error>
   </testcase>
+  <testcase classname="groovypublish.PostTests" name="testTitleisrequired" time="0.051">
+    <error message="No signature of method: groovypublish.Post.save() is applicable for argument types: () values: []
+Possible solutions: wait(), any(), wait(long), use([Ljava.lang.Object;), isCase(java.lang.Object), any(groovy.lang.Closure)" type="groovy.lang.MissingMethodException">groovy.lang.MissingMethodException: No signature of method: groovypublish.Post.save() is applicable for argument types: () values: []
+Possible solutions: wait(), any(), wait(long), use([Ljava.lang.Object;), isCase(java.lang.Object), any(groovy.lang.Closure)
+	at groovypublish.PostTests.testTitleisrequired(PostTests.groovy:36)
+</error>
+  </testcase>
   <system-out><![CDATA[--Output from testCrud--
+--Output from testTitleisrequired--
 ]]></system-out>
   <system-err><![CDATA[--Output from testCrud--
+--Output from testTitleisrequired--
 ]]></system-err>
 </testsuite>

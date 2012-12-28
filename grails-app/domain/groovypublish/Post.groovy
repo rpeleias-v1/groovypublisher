@@ -12,6 +12,11 @@ class Post {
 	SortedSet comments
 		
     static constraints = {
+    	title(nullable:false, blank:false, length:1..50)
+    	teaser(length:1..100)
+    	content(nullable:false, blank:false)
+    	lastModified(nullable:false)
+    	published(nullable:false)
     }
 
     

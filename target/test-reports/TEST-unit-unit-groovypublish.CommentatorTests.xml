@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="rodrigo" name="groovypublish.CommentatorTests" tests="1" time="0.507" timestamp="2012-12-27T23:51:10">
+<testsuite errors="0" failures="0" hostname="rodrigo" name="groovypublish.CommentatorTests" tests="1" time="0.281" timestamp="2012-12-28T00:03:18">
   <properties />
-  <testcase classname="groovypublish.CommentatorTests" name="testSomething" time="0.462" />
+  <testcase classname="groovypublish.CommentatorTests" name="testSomething" time="0.248" />
   <system-out><![CDATA[--Output from testSomething--
 ]]></system-out>
   <system-err><![CDATA[--Output from testSomething--

@@ -12,8 +12,7 @@ class PostTests extends GrailsUnitTestCase {
     }
 
     void testCrud() {
-    	Post post = new Post(title: "Title", teaser: "Teaser", content: "Content", published: false)
-    	
+    	Post post = new Post(title: "Title", teaser: "Teaser", content: "Content", published: false)	
     	post.save()
 
     	def id = post.id
@@ -30,5 +29,13 @@ class PostTests extends GrailsUnitTestCase {
 
     	post.delete()
     	assertEquals(null, Post.get(id))
+    }
+
+    void testTitleisrequired() {
+    	Post post = new Post(teaser:"foo", content:"bar", published:false)
+    	assertNull(post.save())
+
+    	post.title = "my title"
+    	assertNotNull(post.save())
     }
 }
